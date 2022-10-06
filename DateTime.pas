@@ -5,5 +5,9 @@
   print(b);
   var n:=readinteger;
   n*=60;
-  print(n);
+  println(n);
+  var f:=0;
+  if b=true then f:=365 else f:=366;
+  println(f);
+  
 end.
