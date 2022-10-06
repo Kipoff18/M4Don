@@ -16,4 +16,7 @@
     else 
       sum+=366;
  println(sum);
+ var t:=readinteger;
+ t*=3600;
+ println(t);
 end.
