@@ -19,4 +19,7 @@
  var t:=readinteger;
  t*=3600;
  println(t);
+ var bool:boolean;
+ if (d=1992)or(d=2005)or(d=2011) then bool:=true;
+ print(bool);
 end.
