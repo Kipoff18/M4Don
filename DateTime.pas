@@ -9,5 +9,11 @@
   var f:=0;
   if b=true then f:=365 else f:=366;
   println(f);
-  
+  var sum:=0;
+ for  var i:=1904 to 1908 do 
+    if (i mod 4=0)and (i mod 100<>0) or( i mod 400=0) then
+      sum+=365
+    else 
+      sum+=366;
+ println(sum);
 end.
